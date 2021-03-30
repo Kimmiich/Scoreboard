@@ -1,6 +1,3 @@
-// //Skapa våran array
-// let players = [{uName: "Kimmie", score: 0},
-// {uName: "Mathilda", score: 0}];
 
 //Hämta och skapa fält och knapp för att lägga till spelare
 const addingFormPlayer = document.getElementById("addingFormPlayer");
@@ -11,12 +8,6 @@ const input = document.getElementById("input");
 const main = document.getElementById("main");
 main.insertAdjacentHTML("beforeend", "<ul id='playerList'></ul>")
 const playerList = document.getElementById("playerList");
-
-// //Funktion som hämtar localStorage array
-// function getLocal(){
-//     let getArray = JSON.parse(localStorage.getItem("localPlayers"));
-//     return getArray; 
-// };
 
 //Function för att skriva ut spelare
 function printPlayers() {
